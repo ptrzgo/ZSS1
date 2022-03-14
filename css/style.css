@@ -1,0 +1,328 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* GENERAL */
+
+
+/* body {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+   
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: green;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 20px 140px;
+    line-height: 29px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black
+  
+}
+
+figcaption {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 5px;
+}
+
+.post-content {
+    padding: 28px;
+} */
+/* TABLE */
+
+/* table tr {
+    border: 5px solid; 
+    background-color: green;
+    color: white;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+td {
+    margin: 5px;
+    padding: 10px;
+}
+
+th {
+    margin: 5px;
+    padding: 10px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img {
+    padding: 5px;
+}
+ */
+
+/* CONTAINER NAV */
+
+/* .menu-navigation {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    
+    
+ 
+    
+}
+
+.container-nav {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    height: 80px;
+    
+    
+
+}
+
+.menu-navigation, li {
+    list-style: none;
+    line-height: 10px;
+    text-align: center;
+    width: 90%;
+    flex-direction: row;
+    margin: 0 auto;
+    
+   
+}
+
+.menu-navigation a {
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    background-color: green;
+    margin: 0px 0px 0px 0px ; 
+   
+    text-decoration: none;
+    display: flex;
+    
+    
+}
+
+.menu-navigation ul li a {
+    display: flex;
+    text-align: center;
+    padding: 18px;
+    flex-direction: column;
+    
+    
+    
+}
+
+.menu-navigation ul li a:hover {
+    transition-duration: 0.5s;
+}
+
+ul li ul li {
+    display: none;  
+    position: relative;
+    text-align: center;
+    margin-left: -34px;
+    
+}
+
+ul li ul li a {
+    width: 150px;
+    height: 60px;
+}
+
+ul li:hover ul li {
+    display: flex;
+}
+
+.post-content {
+    text-align: center;
+}
+
+.menu-navigation li ul li {
+   
+    
+    opacity: 10;
+} */
+
+/* FOOTER */
+/* 
+.pre-footer  {
+	color: white;
+    background-color: green;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+    margin-top: 10px;
+	padding: 10px 0 20px 0;
+    text-align: center;
+    
+}
+
+
+footer p {
+	color: white;
+    background-color: black;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+} */
+
+/* SECTION CONTACTS */
+/* 
+.contacts ul {
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    width: 300px;
+
+}
+
+.contacts a {
+    text-decoration: none;
+}
+
+.contacts {
+    text-align: right;
+    padding: 26px;
+    
+
+}
+
+.contacts h1 {
+    text-align: left;
+}
+ */
+
+
+
+/* ADAPTIVE */
+/* 
+@media screen and  (max-width: 1000px) {
+    body {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+        
+    }
+
+    p {
+        padding: 3px;
+    }
+}
+
+
+
+@media screen and  (max-width: 480px) {
+    
+    img {
+        
+        min-height: 40%;
+        width: 40%;
+        
+      
+    }
+   
+
+
+    .menu-navigation, li {
+        display: block;
+        padding: 0px;
+        position: static;
+        width: 100%;
+        
+    }
+    .menu-navigation ul li a {
+        display: flex;
+        text-align: center;
+        background-color: rgb(8, 153, 8);
+        flex-direction: column;
+        
+    }
+    .menu-navigation, li {
+        list-style: none;
+        line-height: 10px;
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+        
+        
+      
+       
+    }
+
+
+        .menu-navigation a {
+        color: white;
+        font-size: 15px;
+        line-height: 49px;
+        text-align: center;
+        background-color: green;
+        margin: 0px 0px;
+        width: 100%;
+        height: 50px;
+        text-decoration: none;
+        display: block;
+        position: relative;
+        
+        
+        }
+        .container-nav {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            height: 420px;
+            
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 20px;
+
+        }
+
+        
+        li {
+            
+            line-height: 19px;
+      
+        }
+
+        .menu-navigation ul li a:hover {
+            background-color: green;
+            transition-duration: 0.9s;
+        }
+
+        .contacts ul {
+            text-align: center;
+            list-style: none;
+            text-decoration: none;
+            padding: 10px;
+            width: 300px;
+            margin: 0 auto;
+        }
+        
+      
+        
+} */
